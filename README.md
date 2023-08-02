@@ -82,7 +82,7 @@ git clone https://github.com/your-username/FlexiAuth.git
 cd FlexiAuth
 ```
 
-2. Install the dependencies:
+2. Install the dependencies on both client and server:
 ```
 npm install
 ```
@@ -103,7 +103,7 @@ Replace `your-mongodb-uri` with your MongoDB connection string, `your-jwt-secret
 
 ### Running the Application
 
-4. Run the development server:
+4. Run the development server on client folder:
 ```
 npm run dev
 ```
