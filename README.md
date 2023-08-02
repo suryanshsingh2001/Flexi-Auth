@@ -14,7 +14,7 @@ FlexiAuth is a web application providing a flexible authentication system, allow
   - [Running the Application](#running-the-application)
 - [🐳 Dockerization](#-dockerization)
 - [🔧 Technologies Used](#-technologies-used)
-- [🎉 Conclusion](#-license)
+- [🎉 Acknowledgement](#-acknowledgement)
 
 ## 🚀 Features
 
@@ -126,7 +126,7 @@ docker run -p 3000:3000 -d flexi-auth-app
 
 3. The application should now be accessible at `http://localhost:3000`.
 ---
-## Acknowledgement
+## 🎉 Acknowledgement
 A sincere thank you to everyone who has directly or indirectly contributed to the success of this project. Your support and encouragement have been instrumental in making this endeavor possible. I am grateful for the opportunities, learnings, and memories gained during this project, and I look forward to future collaborations and improvements.
 
 
