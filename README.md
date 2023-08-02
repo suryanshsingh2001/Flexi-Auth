@@ -116,12 +116,12 @@ To run the project using Docker, make sure you have Docker installed on your sys
 
 1. Build the Docker image:
 ```
-docker build -t flexi-auth-app .
+docker build -t flexi-auth.
 ```
 
 2. Run the Docker container:
 ```
-docker run -p 3000:3000 -d flexi-auth-app
+docker run -p 3000:3000 -d flexi-auth.
 ```
 
 3. The application should now be accessible at `http://localhost:3000`.
