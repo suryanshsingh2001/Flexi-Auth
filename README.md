@@ -112,20 +112,41 @@ npm run dev
 
 ## 🐳 Dockerization
 
-To run the project using Docker, make sure you have Docker installed on your system.
 
-1. Build the Docker image:
-```
-docker build -t flexi-auth.
-```
+#### Client
+1. Navigate to the client directory of the project:
 
-2. Run the Docker container:
+```sh[]
+cd client
 ```
-docker run -p 3000:3000 -d flexi-auth.
-```
+2. Build the Docker image for the client:
 
-3. The application should now be accessible at `http://localhost:3000`.
----
+```sh[]
+docker build -t flexi-auth-client .
+```
+3. Run the Docker container for the client:
+```sh[]
+docker run -d -p 3000:3000 --name flexi-auth-client flexi-auth-client
+```
+4. Access the client application in your browser at: http://localhost:3000
+
+#### Server
+
+1. Navigate to the server directory of the project:
+
+```sh[]
+cd server
+```
+2. Build the Docker image for the server:
+```sh[]
+docker build -t flexi-auth-server .
+```
+3. Run the Docker container for the server:
+```sh[]
+docker run -d -p 5000:5000 --name flexi-auth-server flexi-auth-server
+```
+4. The server is now running and ready to accept requests.
+
 ## 🎉 Acknowledgement
 A sincere thank you to everyone who has directly or indirectly contributed to the success of this project. Your support and encouragement have been instrumental in making this endeavor possible. I am grateful for the opportunities, learnings, and memories gained during this project, and I look forward to future collaborations and improvements.
 
